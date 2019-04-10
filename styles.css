@@ -1,0 +1,29 @@
+body {
+  font-family: 'Arapey', serif;
+  margin: 0;
+}
+
+img { 
+max-width: 100%; 
+} 
+
+button, input, select, textarea {
+  font-family : inherit;
+  font-size   : 100%;
+}
+
+input, textarea, select, button {
+  max-width: 50%;
+  margin: 0;
+}
+
+legend {
+  max-width: 40%;
+  max-height: 40%;
+  overflow: hidden;
+}
+
+input:focus, textarea:focus {
+  border-radius: 5px;
+  outline      : none;
+}
